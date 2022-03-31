@@ -8,13 +8,9 @@ const Movielist = ({movies}) => {
 
 	return (
 <>
-<div className='movielist'>
- <ul>
- {movies.map(movie =>
+{movies.map (movie =>
     <Movie key={movie.id} title={movie.title} year={movie.year} rating={movie.rating} director={movie.director} genre={movie.genre} cast={movie.cast}/>
       )}
-</ul>
-</div>
 </>
 	)
 };

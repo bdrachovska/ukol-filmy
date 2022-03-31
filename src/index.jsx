@@ -6,14 +6,14 @@ import Header from './components/Header';
 import Movielist from './components/Movielist';
 
 
-import camera from './img/camera.svg';
+
 
 import movies from './movies.js';
 
 const App = () => {
   return (
   <>
-   <Header image={camera}/>
+   <Header/>
    <Movielist movies={movies} />
   </>
 )
