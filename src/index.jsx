@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import './style.css';
 
 import Header from './components/Header';
-import Movie from './components/Movie';
 import Movielist from './components/Movielist';
 
 
