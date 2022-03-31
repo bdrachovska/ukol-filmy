@@ -1,0 +1,13 @@
+.movie
+{
+  display: flexbox;
+  margin: 35px;
+}
+
+.movie_text {
+color:blue
+}
+
+.movie_rating {
+  color:blueviolet;
+}
