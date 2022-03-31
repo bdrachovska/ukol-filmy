@@ -1,13 +1,17 @@
 .movie
 {
-  display: flexbox;
   margin: 35px;
+  display: inline-block;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  padding: 25px;
 }
 
 .movie_text {
-color:blue
+color: gray;
+font-weight: 800;
 }
 
 .movie_rating {
-  color:blueviolet;
+  font-style: italic;
 }
