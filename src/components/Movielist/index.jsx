@@ -9,10 +9,9 @@ const Movielist = ({movies}) => {
 <>
 <div className='movielist'>
  <ul>
-    {
-    movies.map(movie =>
-    <Movie key={index} title={movie.title} year={movie.year} rating={movie.rating} director={movie.director} genre={movie.genre} cast={movie.cast}/>
-  )}
+ {movies.map(movie =>
+    <Movie title={movie.title} year={movie.year} rating={movie.rating} director={movie.director} genre={movie.genre} cast={movie.cast}/>
+      )}
 </ul>
 </div>
 </>
