@@ -2,10 +2,16 @@
 {
   margin: 35px;
   display: inline-block;
-  border: 2px solid blueviolet;
+  border: 2px dotted orange;
   border-radius: 15px;
   padding: 25px;
 }
+
+.movie_title {
+    color: salmon;
+    font-weight: 900;
+    text-decoration: underline;
+    }
 
 .movie_text {
 color: gray;
@@ -13,5 +19,10 @@ font-weight: 800;
 }
 
 .movie_rating {
-  font-style: italic;
+  font-weight: bold;
+  text-decoration:overline;
+  text-align:center;
+}
+.movie_img {
+    align-items:center;
 }
