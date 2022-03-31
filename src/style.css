@@ -14,3 +14,16 @@ html {
   height: 1em;
   margin-right: 0.3em;
 }
+
+.movie
+{
+  display: inline-block;
+}
+
+.movie_text {
+color:blue
+}
+
+.movie_rating {
+  color:blueviolet;
+}
